@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calificaciones</title>
+
+</head>
+
+
+<body>
+    
+   <main>
+
+    <div class="formulario">
+        <h1 class="formulario__titulo">Promedio de alumnos</h1>
+
+        <form class="cuadro" action="#" id="formulario">
+            <input type="text" class="cuadro__nombre formulario--input" placeholder="Nombre de alumno" id="nombre" minlength="3" required>
+
+            <select class="cuadro__materia" name="materia" id="materia" required>
+                <option value="" selected disabled>Escoger una materia</option>
+                <option value="matematicas">Matematicas</option>
+                <option value="ingles">Ingles</option>
+                <option value="computacion">Computación</option>
+            </select>
+
+            
+            <input class="cuadro__calificaciones__cal1" type="number" id="calificacion1" name="calificacion1" min="1" max="10" placeholder="calificion 1" required>
+            <input class="cuadro__calificaciones__cal2" type="number" id="calificacion2" name="calificacion2" min="1" max="10" placeholder="calificion 2" required>
+            <input class="cuadro__calificaciones__cal3"  type="number" id="calificacion3" name="calificacion3" min="1" max="10" placeholder="calificion 3" required>
+            <input class="cuadro__calificaciones__cal4"  type="number" id="calificacion4" name="calificacion4" min="1" max="10" placeholder="calificion 4" required>
+            
+            
+
+
+            <button class="cuadro__btn" type="submit">Agregar</button>
+            <input type="button" class="cuadro__btn-grupoA" onclick="datos('primeroA')" value="Primero A">
+            <input type="button" class="cuadro__btn-grupoB" onclick="datos('primeroB')" value="Primero B">
+
+        </form>
+        
+        <table class="tabla">
+            <thead class="tabla__dist">
+                <tr>
+                    <th class="tabla__th">Nombre</th>
+                    <th class="tabla__th">Materia</th>
+                    <th class="tabla__th">Promedio</th>
+                    <th class="tabla__th">Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody class="tabla__dist" id="lista">
+            </tbody>
+        </table>
+    </div>
+
+</main>
+
+
+<footer class="footer"> tercera entrega <a href="www.linkedin.com/in/miguel-angel-valdez-ramírez-4818a4252"> Miguel Angel Valdez</a></footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="js/javascript.js"></script>
+
+</body>
+</html>

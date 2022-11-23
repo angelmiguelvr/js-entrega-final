@@ -1,0 +1,271 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.aprobado{
+	color: green;
+	text-transform: uppercase;
+}
+
+.reprobado{
+	color: red;
+	text-transform: uppercase;
+}
+
+.formulario{
+	border: solid 1px grey;
+	border-radius: 8px;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 50px auto;
+	padding: 50px 40px;
+}
+.formulario:hover{
+	box-shadow: 0 4px 4px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.formulario__titulo{
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.cuadro{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 4fr;
+}
+
+.cuadro__nombre{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	font-size: 25px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+.cuadro__nombre:focus{
+	border-bottom: 1px solid #127AD1;
+}
+
+.cuadro__materia{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	font-size: 25px;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+.cuadro__materia:focus{
+	border-bottom: 1px solid #127AD1;
+}
+
+.cuadro__calificaciones{
+	grid-column-start: 1;
+	grid-column-end: 4fr;
+	font-size: 20px;
+	padding: 0 20px;
+
+}
+
+.cuadro__calificaciones__cal1{
+	grid-column-start: 1fr;
+	font-size: 20px;
+	padding: 10px ;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 10px;
+}
+
+.cuadro__calificaciones__cal1:focus{
+	border-bottom: 1px solid #127AD1;
+}
+
+.cuadro__calificaciones__cal2{
+	grid-column-start: 1fr;
+	font-size: 20px;
+	padding: 10px ;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 10px;
+}
+
+.cuadro__calificaciones__cal2:focus{
+	border-bottom: 1px solid #127AD1;
+}
+
+.cuadro__calificaciones__cal3{
+	grid-column-start: 1fr;
+	font-size: 20px;
+	padding: 10px ;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 10px;
+}
+
+.cuadro__calificaciones__cal3:focus{
+	border-bottom: 1px solid #127AD1;
+}
+
+.cuadro__calificaciones__cal4{
+	grid-column-start: 1fr;
+	font-size: 20px;
+	padding: 10px ;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 10px;
+}
+
+.cuadro__calificaciones__cal4:focus{
+	border-bottom: 1px solid #127AD1;
+}
+
+.cuadro__btn{
+	grid-row-start: 3;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	font-size: 25px;
+	padding: 1.5vh 3vw;
+	margin: 2vh;
+	border-radius: 8px;
+	border: none;
+	background: #127AD1 ;
+	color: white;
+	transition: all 0.5s;
+}
+
+.cuadro__btn:hover{
+	background: #3D8ED1;
+	color: white;
+	cursor: pointer;
+}
+
+.cuadro__btn-grupoA{
+	grid-row-start: 4;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	font-size: 25px;
+	padding: 1.5vh 2vw;
+	margin: 2vh;
+	border-radius: 8px;
+	border: none;
+	background: #1887e2a9 ;
+	color: white;
+	transition: all 0.5s;
+}
+
+.cuadro__btn-grupoA:hover{
+	background: #2595f188;
+	color: white;
+	cursor: pointer;
+}
+
+.cuadro__btn-grupoB{
+	grid-row-start: 4;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	font-size: 25px;
+	padding: 1.5vh 2vw;
+	margin: 2vh;
+	border-radius: 8px;
+	border: none;
+	background: #1887e2a9 ;
+	color: white;
+	transition: all 0.5s;
+}
+
+.cuadro__btn-grupoB:hover{
+	background: #2595f188;
+	color: white;
+	cursor: pointer;
+}
+
+.tabla {
+	width: 100%;
+	
+}
+
+
+.tabla__th{
+	font-size: 2vw;
+	padding: 2vh 6vw;
+	margin: 2vw ;
+}
+.tabla__td{
+	font-size: 2vw;
+	padding: 2vh 6vw;
+	margin: 2vw ;
+}
+.footer{
+	justify-content: center;
+	text-align: center;
+	font-size: 18px;
+	padding: 0 0 10px 0;
+}
+
+@media only screen and (max-width: 900px){
+	.formulario__titulo{
+		font-size: 23px;
+	}
+
+	.cuadro__nombre{
+		font-size: 14px;
+		margin: 2vw;
+	}
+	.cuadro__materia{
+		font-size: 14px;
+	}
+
+	.cuadro__calificaciones{
+		font-size: 14px;
+
+	
+	}
+	
+	.cuadro__calificaciones__cal1{
+		font-size: 14px;
+	}
+	
+	
+	.cuadro__calificaciones__cal2{
+		font-size: 14px;
+	}
+	
+	
+	.cuadro__calificaciones__cal3{
+		font-size: 14px;
+	}
+	
+	.cuadro__calificaciones__cal4{
+		font-size: 14px;
+	}
+	
+
+	.cuadro__btn{
+		font-size: 18px;
+	}
+
+	.cuadro__btn-grupoA{
+		font-size: 18px;
+	}
+	.cuadro__btn-grupoB{
+		font-size: 18px;
+	}
+}
+
+
+

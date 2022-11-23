@@ -1,0 +1,86 @@
+
+{
+    "primeroA": [
+      {
+        "nombre": "Alejandro",
+        "materia": "Computación",
+        "calificacion1": "7",
+        "calificacion2": "8",
+        "calificacion3": "9",
+        "calificacion4": "8"
+      },
+      {
+        "nombre": "Angelica",
+        "materia": "Matematicas",
+        "calificacion1": "8",
+        "calificacion2": "6",
+        "calificacion3": "7",
+        "calificacion4": "6"
+      },
+      {
+        "nombre": "Jose",
+        "materia": "Ingles",
+        "calificacion1": "5",
+        "calificacion2": "6",
+        "calificacion3": "6",
+        "calificacion4": "6"
+      },
+      {
+        "nombre": "Pedro",
+        "materia": "Matematicas",
+        "calificacion1": "5",
+        "calificacion2": "5",
+        "calificacion3": "5",
+        "calificacion4": "5"
+      }],
+      "primeroB": [
+      {
+        "nombre": "Manuel",
+        "materia": "Ingles",
+        "calificacion1": "5",
+        "calificacion2": "7",
+        "calificacion3": "6",
+        "calificacion4": "5"
+      },
+      {
+        "nombre": "Raquel",
+        "materia": "Matematicas",
+        "calificacion1": "8",
+        "calificacion2": "9",
+        "calificacion3": "10",
+        "calificacion4": "10"
+      },
+      {
+        "nombre": "Daniel",
+        "materia": "Computación",
+        "calificacion1": "9",
+        "calificacion2": "8",
+        "calificacion3": "9",
+        "calificacion4": "5"
+      },
+      {
+        "nombre": "Maria",
+        "materia": "Ingles",
+        "calificacion1": "5",
+        "calificacion2": "5",
+        "calificacion3": "5",
+        "calificacion4": "5"
+      },
+      {
+        "nombre": "Adriana",
+        "materia": "Computación",
+        "calificacion1": "6",
+        "calificacion2": "8",
+        "calificacion3": "9",
+        "calificacion4": "8"
+      },
+      {
+        "nombre": "Saul",
+        "materia": "Matematicas",
+        "calificacion1": "10",
+        "calificacion2": "10",
+        "calificacion3": "10",
+        "calificacion4": "10"
+      }
+    ]
+}
